@@ -4312,10 +4312,10 @@ kleur@^3.0.3:
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
-langsmith@0.3.49, langsmith@^0.3.33, langsmith@^0.3.46:
-  version "0.3.49"
-  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.3.49.tgz#aed28d58b0a8194423d7a6c82b494015017f2fb2"
-  integrity sha512-hVLpGzTDq4dFffScKuF9yIuwXqp6LJCsvxK4UjmLae+oEodfnFIQ6yVmNyhxFnm3QuRl1NY8qLFul3k+R1YnGQ==
+langsmith@0.3.67:
+  version "0.3.67"
+  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.3.67.tgz#6e4fbcb7ffb37e690af4d048e3a10a725418c7fe"
+  integrity sha512-l4y3RmJ9yWF5a29fLg3eWZQxn6Q6dxTOgLGgQHzPGZHF3NUynn+A+airYIe/Yt4rwjGbuVrABAPsXBkVu/Hi7g==
   dependencies:
     "@types/uuid" "^10.0.0"
     chalk "^4.1.2"
@@ -4332,6 +4332,19 @@ langsmith@^0.2.0:
   dependencies:
     "@types/uuid" "^10.0.0"
     commander "^10.0.1"
+    p-queue "^6.6.2"
+    p-retry "4"
+    semver "^7.6.3"
+    uuid "^10.0.0"
+
+langsmith@^0.3.33, langsmith@^0.3.46:
+  version "0.3.49"
+  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.3.49.tgz#aed28d58b0a8194423d7a6c82b494015017f2fb2"
+  integrity sha512-hVLpGzTDq4dFffScKuF9yIuwXqp6LJCsvxK4UjmLae+oEodfnFIQ6yVmNyhxFnm3QuRl1NY8qLFul3k+R1YnGQ==
+  dependencies:
+    "@types/uuid" "^10.0.0"
+    chalk "^4.1.2"
+    console-table-printer "^2.12.1"
     p-queue "^6.6.2"
     p-retry "4"
     semver "^7.6.3"
